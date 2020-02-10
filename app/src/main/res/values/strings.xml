@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Examen2Evaluacion</string>
+    <string name="ejer1">Base de datos</string>
+    <string name="ejer2">El Tiempo (XML)</string>
+    <string name="salir">Salir</string>
+    <string name="SQLite">Mi base de datos de Libros</string>
+    <string name="NuevoL">Nuevo libro</string>
+    <string name="ListadoL">Listado Libros</string>
+    <string name="BuscarL">Buscar libros(s)</string>
+    <string name="menu_principal">--MENU PRINCIPAL--</string>
+    <string name="datos_nuevo_libro">DATOS NUEVO LIBRO</string>
+    <string name="titulo">TITULO:</string>
+    <string name="autor">AUTOR:</string>
+    <string name="isbn">ISBN:</string>
+    <string name="editorial">EDITORIAL</string>
+    <string name="num_pag">NUM.PAGINAS</string>
+    <string name="leido">Leido</string>
+    <string name="insertar">Insertar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="volver">Volver</string>
+    <string name="leidos">Leidos</string>
+    <string name="no_leidos">No Leidos</string>
+    <string name="todos_los_libros">Todos Los Libros</string>
+    <string name="Buscar">Buscar</string>
+    <string name="marca">Marca la opcion por la que quieres buscar</string>
+    <string name="Informacion">Informacion detallada del libro</string>
+    <string name="eliminar">ElIMINAR</string>
+    <string name="el_tiempo">El tiempo</string>
+    <string name="localidades">Escoje una de las siguientes localidades</string>
+    <string name="bilbo_bilbao">Bilbo-Bilbao</string>
+    <string name="donostia_san_sebastian">Donostia_San Sebastian</string>
+    <string name="vitoria_gasteiz">Vitoria-Gasteiz</string>
+    <string name="tiempo_en">Tiempo en:</string>
+    <string name="dia">Dia:</string>
+    <string name="temperatura_maxima">Temperatura Maxima:</string>
+    <string name="temperatura_minima">Temperatura Minima:</string>
+    <string name="estado_del_cielo">Estado del Cielo:</string>
+
+
+</resources>

@@ -1,0 +1,140 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/datos_nuevo_libro" />
+
+    <TextView
+        android:id="@+id/textViewTitulo"
+        android:layout_below="@+id/textTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo" />
+
+    <EditText
+        android:id="@+id/editTextTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textTitulo"
+        android:layout_toRightOf="@+id/textViewTitulo"
+        android:clickable="false" />
+
+
+    <TextView
+        android:id="@+id/textViewAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/autor"
+        android:layout_below="@+id/editTextTitulo"/>
+
+    <EditText
+        android:id="@+id/editTextAutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTitulo"
+        android:layout_toRightOf="@+id/textViewAutor" />
+
+    <TextView
+        android:id="@+id/textViewISBN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/isbn"
+        android:layout_below="@+id/editTextAutor"/>
+
+
+    <EditText
+        android:id="@+id/editTextISBN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textViewTitulo"
+        android:layout_below="@+id/editTextAutor"
+        android:inputType="number"/>
+
+
+    <TextView
+        android:id="@+id/textViewEditorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/editorial"
+        android:layout_below="@+id/editTextISBN"/>
+
+
+    <EditText
+        android:id="@+id/editTextEditorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textViewEditorial"
+        android:layout_below="@+id/editTextISBN"/>
+
+
+    <TextView
+        android:id="@+id/textViewNum_pag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/num_pag"
+        android:layout_below="@+id/editTextEditorial"/>
+
+
+    <EditText
+        android:id="@+id/editTextNum_pag"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_toRightOf="@+id/textViewNum_pag"
+        android:layout_below="@+id/editTextEditorial"/>
+
+
+    <CheckBox
+        android:id="@+id/checkBoxLeido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:text="@string/leido"
+        android:layout_toRightOf="@+id/editTextNum_pag"
+        android:layout_below="@+id/editTextEditorial"/>
+
+
+    <Button
+        android:id="@+id/btnInsertar"
+        android:layout_marginStart="25dp"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/insertar"
+        android:layout_below="@+id/editTextNum_pag"/>
+
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/cancelar"
+        android:layout_below="@+id/editTextNum_pag"
+        android:layout_toRightOf="@+id/btnInsertar"/>
+
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnInsertar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="90dp"
+        android:text="@string/volver" />
+
+
+</RelativeLayout>
